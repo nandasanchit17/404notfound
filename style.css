@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============ COLORS =========== */
+/*======== FONT SIZES ========== */
+/*========= FONT FAMILIES ======*/
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Space Mono", monospace;
+  padding-bottom: 5rem;
+  position: relative;
+}
+
+nav {
+  min-height: 8vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+nav p {
+  font-size: 1.5rem;
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  line-height: 1.5rem;
+  color: #333333;
+}
+
+@media (min-width: 60rem) {
+  nav {
+    margin-bottom: 7rem;
+    padding-left: 3rem;
+  }
+}
+
+.content {
+  max-width: 35rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.content .svg {
+  width: 100%;
+  margin: 0 auto 2rem auto;
+}
+
+.content .svg img {
+  width: 100%;
+  padding: 1rem;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+.content .desc {
+  width: 100%;
+  padding: 0 0.7rem;
+}
+
+.content .desc h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  max-width: 12ch;
+  margin-bottom: 1.5rem;
+  color: #333333;
+}
+
+.content .desc h2 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #333333;
+  max-width: 30ch;
+  margin-bottom: 4rem;
+}
+
+.content .desc button {
+  border: none;
+  background-color: #333333;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+}
+
+@media (min-width: 60rem) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 1rem;
+  }
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1400px;
+  }
+  .content .svg {
+    margin: 0 auto;
+  }
+  .content .svg img {
+    padding: 0;
+  }
+  .content .desc h1 {
+    font-size: 4rem;
+    padding: 0;
+    max-width: 26ch;
+  }
+}
+
+footer {
+  width: 100%;
+  min-height: 3vh;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p {
+  font-size: 0.875rem;
+  color: #4f4f4f;
+}
+/*# sourceMappingURL=main.css.map */
